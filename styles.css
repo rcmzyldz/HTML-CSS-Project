@@ -31,6 +31,9 @@
   padding: 0px 0px;
 }
 
+body {
+  max-width: 900px;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -55,7 +58,7 @@ img {
 }
 
 table {
-  width: 400px;
+  width: 700px;
   border: 1px solid black;
   border-collapse: collapse;
   text-align: left;
@@ -65,7 +68,7 @@ table {
 th {
   width: 200px;
   border: 1px solid black;
-  background-color: gray;
+  background-color: rgb(167, 240, 228);
   color: black;
 }
 
@@ -77,5 +80,15 @@ td {
 tr:nth-child(even) {
   width: 50%;
   border: 1px solid black;
+  background-color: white;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.title-inline {
   background-color: white;
 }
