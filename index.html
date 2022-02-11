@@ -34,40 +34,47 @@
       <h3>Dreams and wishes</h3>
       <ul>
         <li>World Travel</li>
-        <ul>
+        <ol>
           <li>North Lights</li>
           <li>Niagara Falls</li>
           <li>Sanctuary of Christ the King</li>
           <li>Great Wall of China</li>
           <li>South Africa</li>
           <li>Papua New Guinea</li>
-        </ul>
+        </ol>
+
         <li>Bungee Jumping</li>
         <li>Cruise Trip</li>
       </ul>
-      <h3>Stats of awesomeness</h3>
-      <table>
-        <tr>
-          <th class="title">Stat</th>
-          <th class="title">Amount</th>
-        </tr>
-        <tr>
-          <th>Art</th>
-          <th>Good</th>
-        </tr>
-        <tr>
-          <th class="title-inline">Gaming</th>
-          <th class="title-inline">Terrible</th>
-        </tr>
-        <tr>
-          <th>Stocks</th>
-          <th>No Idea</th>
-        </tr>
-        <tr>
-          <th class="title-inline">Memes</th>
-          <th class="title-inline">So so</th>
-        </tr>
-      </table>
+      <button id="btn" onclick="getTable()" style="visibility: visible">
+        Show Stats!
+      </button>
+      <div id="table-container" style="visibility: hidden">
+        <h3>Stats of awesomeness</h3>
+        <table>
+          <tr>
+            <th class="title">Stat</th>
+            <th class="title">Amount</th>
+          </tr>
+          <tr>
+            <th>Art</th>
+            <th>Good</th>
+          </tr>
+          <tr>
+            <th class="title-inline">Gaming</th>
+            <th class="title-inline">Terrible</th>
+          </tr>
+          <tr>
+            <th>Stocks</th>
+            <th>No Idea</th>
+          </tr>
+          <tr>
+            <th class="title-inline">Memes</th>
+            <th class="title-inline">So so</th>
+          </tr>
+        </table>
+      </div>
     </div>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
